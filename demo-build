@@ -1,0 +1,8 @@
+EXEC="opengl-snake-64.love"
+
+rm $EXEC
+cd src/
+7z a -tzip -r $EXEC * -x!love-build -xr!.git -x!.gitignore
+mv $EXEC ../$EXEC
+cd ..
+love $EXEC --demo
