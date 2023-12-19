@@ -4,7 +4,7 @@
 An archive for a proof-of-concept (rather extensive PoC) for an unnamed, fusion visual novel engine. Built on [LÖVE2D](https://love2d.org/), a 2D framework using Lua.  
 UPDATE (11/22/2023): A continuation of this is being made, with progress notes under the README of https://github.com/soyiu100/morning-cicada. That new repo will not contain any code, as it is no longer a PoC. 
 ### ...Does it work?
-Yes! If you have LÖVE2D and 7zip installed, in a Unix-like shell like [cmder](https://cmder.app/), you can run `sh demo-build`.  
+Yes! If you have LÖVE2D and 7zip installed. Unzip the src.7z in the same directory as the repo (the only folder in the base of the repo should be src/). Then, in a Unix-like shell like [cmder](https://cmder.app/), you can run `sh demo-build`.  
 You can also run `sh fast-build` or `love-build.bat` (dry-run Windows script that minifies Lua files) to access the app the normal way (the non-demo build). However, there is not much more to see, unless you want to see story fragments. The demo should pretty much cover every feature that I would like to present.
 If my setup is vastly different from yours (e.g. Mac, actual Linux) or you don't want to install anything, a video demo annotated with subtitles can be seen here: https://www.youtube.com/watch?v=qRTBtYiCauU
 ### Why are there so many random holes and code fragments floating around? Is it even real?
